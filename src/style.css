@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background: #cbcbcb;  
+}
+
+#root {
+   
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container-placar {
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+    border: 2px solid gray;
+}
